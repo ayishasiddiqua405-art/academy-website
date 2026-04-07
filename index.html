@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- css style link -->
+
+    <link rel="stylesheet" href="style.css">
+    <title>RMV Technologies</title>
+</head>
+
+<body>
+    <!-- nav bar section -->
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0 ">
+        <div class="container-fluid">
+            <img src="./img/logo.png" class="logo navbar-brand" alt="">
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#program">Program</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#contact">Contact Us</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- hero section -->
+    <section id="home">
+        <div class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/hero-back.png" class="position-relative w-100 vh-100 d-block" alt="">
+
+                    <!-- image-1 -->
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(24, 29, 56, .7)">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-sm-10 col-lg-8">
+                                    <h5 class="text-warning text-uppercase mb-3 animated slideInDown">Build Real-Time
+                                        Skills
+                                    </h5>
+                                    <h1 class="display-3 text-white animated slideInDown">Upgrade Your Skills for the
+                                        Digital World
+
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">Learn React, UI/UX & more with real-time
+                                        projects
+                                    </p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">
+                                        Join Us</a>
+                                    <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Explore
+                                        Courses</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> -->
+        </div>
+    </section>
+
+    <!-- course-section -->
+
+    <section id="program">
+
+        <div class=" text-center  w-100">
+            <h2 class="text fw-bold mb-4">Courses Available</h2>
+            <div class="container mt-5">
+                <div class="row justify-content-center gap-2">
+                    <div class="col-12 col-sm-6 col-md-3 course-card">
+                        <div class="p-3">
+                            <h5>PHP Development</h5>
+                            <p> Learn backend development using PHP & MySQL.
+                                Build dynamic websites, login systems, and real-time projects.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 course-card">
+                        <div class="p-3">
+                            <h5>Web Development</h5>
+                            <p> Master HTML, CSS, JavaScript & React.
+                                Create responsive websites and modern web applications.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 course-card">
+                        <div class="p-3">
+                            <h5>UI/UX</h5>
+                            <p> Learn design principles, wireframing & prototyping using Figma.
+                                Build user-friendly and attractive interfaces.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 course-card ">
+                        <div class="p-3">
+                            <h5>MERN</h5>
+                            <p> Become a full-stack developer using MongoDB, Express, React & Node.js.
+                                Build real-world web applications.</p>
+                        </div>
+                    </div>
+                    <div class="m-4  d-flex justify-content-center">
+                        <button id="btn" class=" btn btn-primary d-flex  gap-2">Explore More<i
+                                class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+
+
+    <section class="py-5 about-us " id="about">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+
+                <div class="col-md-6">
+                    <img src="./img/about-img.jpg" class="img-fluid rounded" alt="">
+                </div>
+
+                <div class="col-md-6">
+
+
+                    <h6 class="text-primary fw-bold text-uppercase">About Us</h6>
+
+                    <h2 class="fw-bold mb-3">Welcome to <span class="text-primary">RMV Technologies</span> </h2>
+
+
+                    <p>
+                        RMV Technologies focuses on practical learning to help students gain real-world skills. Our
+                        vision is to empower learners to succeed in the digital era, and our mission is to provide
+                        industry-based training, affordable education, and complete career support from learning to
+                        placement.
+                    </p>
+
+
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <p><i class="bi bi-arrow-right text-primary me-2"></i>Skilled Trainers</p>
+                            <p><i class="bi bi-arrow-right text-primary me-2"></i>Real-time Projects</p>
+                            <p><i class="bi bi-arrow-right text-primary me-2"></i>Placement Support</p>
+                        </div>
+                        <div class="col-6">
+                            <p><i class="bi bi-arrow-right text-primary me-2"></i>Online & Offline Classes</p>
+                            <p><i class="bi bi-arrow-right text-primary me-2"></i>Certification</p>
+                            <p><i class="bi bi-arrow-right text-primary me-2"></i>Affordable Fees</p>
+                        </div>
+                    </div>
+
+
+                    <button class="btn btn-primary mt-3 px-4">Read More</button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h2 class="text text-center">What Sets Us Apart</h2>
+        <div class=" ">
+            <div class="container">
+
+                <div class="row g-3">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div class="col-lg-12 col-md-12">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="img/experts.jpg" alt="">
+                                    <div class="bg-dark d-inline-block bg-opacity-75 text-center w-100 position-absolute bottom-0 end-0 py-2 px-3"
+                                        style="margin: 1px;">
+                                        <h5 class="m-0"> Experienced Faculty</h5>
+                                        <small>Learn from industry experts who guide you with
+                                            real-world knowledge and experience.</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="img/flexible.jpg" alt="">
+                                    <div class="bg-dark d-inline-block bg-opacity-75 text-center w-100 position-absolute bottom-0 end-0 py-2 px-3"
+                                        style="margin: 1px;">
+                                        <h5 class="m-0"> Flexible Timings</h5>
+                                        <small">Choose batch timings that suit your
+                                            schedule.</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <a class="position-relative d-block overflow-hidden h-100" href="">
+                                    <img class="img-fluid h-100" src="img/real-time.jpg" alt="">
+                                    <div class="bg-dark d-inline-block bg-opacity-75 text-center w-100 position-absolute bottom-0 end-0 py-2 px-3"
+                                        style="margin: 1px;">
+                                        <h5 class="m-0"> Real-Time Projects
+                                        </h5>
+                                        <small>Work on live projects to gain practical experience and
+                                            confidence.</small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6" style="min-height: 350px;">
+                        <a class="position-relative d-block h-100 overflow-hidden">
+                            <img class="img-fluid position-absolute w-100 h-100" src="img/hands-on.jpg" alt=""
+                                style="object-fit: cover;">
+                            <div class="bg-dark d-inline-block bg-opacity-75 text-center w-100 position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin:  1px;">
+                                <h5 class="m-0 ">Hands-on Training</h5>
+                                <small>Focus on practical learning rather than just theory.</small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-us -->
+
+    <section id="contact">
+        <h2 class="text text-center">Find Us</h2>
+        <div class="position-relative">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.070054321399!2d78.10459247353982!3d9.928123874270415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x494835b0cbf98771%3A0x5444e439b8bf54e0!2sRMV%20Technologies!5e0!3m2!1sen!2sin!4v1775448090519!5m2!1sen!2sin"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center text-center text-md-start text ">
+                <div class="location-card position-absolute top-50 translate-end start-50 mx-auto">
+                    <!-- Phone number -->
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-telephone-fill me-2 icon"></i>
+                        <div class="d-flex flex-column">
+                            <p><strong>Phone:</strong></p>
+                            <p> +91 xxxxxxxx</p>
+                        </div>
+                    </div>
+                    <!-- mail-id -->
+
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-envelope-at-fill me-2 icon"></i>
+                        <div class="d-flex flex-column">
+                            <p><strong>Email:</strong></p>
+                            <p> rmvtechnologies@gmail.com</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- arrow -->
+    <button id="scroll-top" role="button">
+        <i class="bi bi-arrow-up-circle-fill "></i>
+    </button>
+
+
+    <section class="bg-primary ">
+        <div class="container py-4 text-white">
+            <div class="row g-3">
+
+                <div class="col-md-3 col-sm-12">
+                    <div>
+                        <img src="./img/logo-2.png" class="logo-2" alt="">
+                        <p></p>
+                    </div>
+                    <div class=" d-flex gap-2 text-warning">
+                        <h5>Follow Us</h5>
+                        <div class="d-flex gap-2">
+                            <i class="bi bi-instagram "></i>
+                            <i class="bi bi-linkedin"></i>
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-12">
+                    <p class="fw-bold">Company</p>
+                    <p>Home</p>
+                    <p>Courses</p>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                </div>
+
+                <div class="col-md-3 col-sm-12">
+                    <p class="fw-bold"> Our Courses</p>
+                    <p>PHP </p>
+                    <p>Web Development</p>
+                    <p>UI/UX</p>
+                    <P>MERN</P>
+                </div>
+
+                <div class="col-md-3 col-sm-12">
+                    <p class="fw-bold">Address</p>
+                    <p>60, New Jail Rd, Karimedu, Arappalayam, Madurai, Tamil Nadu 625016</p>
+                </div>
+
+
+
+            </div>
+    </section>
+
+
+
+    <footer class="bg-warning">
+        <div class="d-flex justify-content-center gap-2">
+
+            <i class="bi bi-c-circle-fill"></i>
+            <p>2026 RMV Academy All Rights Reserved</p>
+
+        </div>
+        </div>
+
+    </footer>
+
+
+</body>
+<script>
+
+    // explore btn
+    const btn = document.getElementById("btn");
+
+    btn.addEventListener("click", () => {
+        btn.classList.add("move");
+    });
+
+    // bottom to top scroll btn
+    const btn1 = document.getElementById("scroll-top");
+
+    window.onscroll = function () {
+        if (document.documentElement.scrollTop > 100) {
+            btn1.style.display = "block";
+        } else {
+            btn1.style.display = "none";
+        }
+    };
+
+
+    btn1.onclick = function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+
+</script>
+
+</html>
