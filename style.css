@@ -58,7 +58,7 @@ a {
     transform: translateX(500px);
     opacity: 0;
 
-
+}
 .about-us {
     background-image: url("./img/about-background.jpg");
     background-size: cover;
