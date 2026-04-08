@@ -63,6 +63,7 @@ a {
     background-image: url("./img/about-background.jpg");
     background-size: cover;
     background-position: top;
+    overflow-x: hidden;
 }
 
 .map {
